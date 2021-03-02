@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  tasks:
+    - name: use cluster
+      command: kubectl cluster-info --context kind-app 
+      become: True
+      become_user: sarankaja
+    - name: run kubernetes.yaml to deploy flask app and create a service
+      command: kubectl apply -f kubernetes.yaml
+      become: True
+      become_user: sarankaja
