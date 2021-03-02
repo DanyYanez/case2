@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
     - name: run kubernetes.yaml to deploy flask app and create a service
-      command: kubectl apply -f kubernetes.yaml
+      command: /usr/local/bin/kubectl apply -f kubernetes.yaml
