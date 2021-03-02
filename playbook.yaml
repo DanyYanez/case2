@@ -3,5 +3,3 @@
   tasks:
     - name: run kubernetes.yaml to deploy flask app and create a service
       command: kubectl apply -f kubernetes.yaml
-      become: True
-      become_user: sarankaja
