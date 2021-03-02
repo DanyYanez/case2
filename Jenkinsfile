@@ -47,7 +47,7 @@ pipeline {
   }
 }
 
-  }      						
+        						
 			stage('kube running succesfully'){
 				steps{
 					script {
@@ -55,5 +55,5 @@ pipeline {
 					}
 				}				
 			}
-		}
+		
 	}
