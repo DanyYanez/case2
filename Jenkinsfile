@@ -21,7 +21,7 @@ pipeline {
 	 
    				stage('Deploy to playbook'){
 					steps{
-  						ansiblePlaybook(playbook: 'playbook.yaml')
+  						ansiblePlaybook installation: 'Ansible', playbook: 'playbook.yaml'
   }
 }
 
