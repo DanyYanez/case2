@@ -24,8 +24,8 @@ pipeline {
 				stage('Build docker image ') {
 					steps {
 						script {
-							sh 'image build -t $DOCKER_HUB_REPO:latest .'
-							sh 'image tag $DOCKER_HUB_REPO:latest $DOCKER_HUB_REPO:$BUILD_NUMBER'
+							sh 'docker image build -t $DOCKER_HUB_REPO:latest .'
+							sh 'docker image tag $DOCKER_HUB_REPO:latest $DOCKER_HUB_REPO:$BUILD_NUMBER'
 							echo "image built successfuly"
 						}
 					}	
@@ -34,9 +34,9 @@ pipeline {
                				 steps {
                    				withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'dockerhub', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD']]){
 
-                    						sh "login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD"
+                    						sh "docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD"
                     	
-                    						sh 'push sarankaja/kubesba'
+                    						sh 'docker push sarankaja/kubesba'
                  }
              }
          }
