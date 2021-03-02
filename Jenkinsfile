@@ -29,7 +29,7 @@ pipeline {
 			stage('kube running succesfully'){
 				steps{
 					script {
-						sh 'kubectl get services'
+						sh '/usr/local/bin/kubectl get services'
 					}
 				}				
 			}
