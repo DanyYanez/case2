@@ -90,6 +90,47 @@ You should see the below app running**
 
 1. We are deploying ELK Stack to monitor our services.
 2. Make sure you have installed [ELK Stack](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html)
+3. Navigate to the folder where Elk Stack is cloned
+4. run `docker-compose up`
+5. you will see logs in the terminal
+6. Navigate to the kibana dashboard[localhost:5601](http://localhost:5601)
+
+## You should see the below page
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.06.44%20AM.png)
+
+**Install Metricbeat to pull the docker and system logs.If you dont have it installed plese follow [these](https://www.elastic.co/guide/en/beats/metricbeat/current/metricbeat-installation-configuration.html) instructions**
+
+7. Start metricbeat by using 
+   `brew services start elastic/tap/metricbeat-full`
+
+8. Enable modules to pull logs by using the below commands
+  `metricbeat modules enable docker`
+  `metricbeat modules enable Kubernetes`
+  `metricbeat modules enable systemlogs`
+  we are enabling these to pull docker, kubernetes and systemlogs.
+  
+9. run `metricbeat setup -e` to configure the changes 
+
+
+## ELK Stack Dashboard
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-01%20at%2012.16.40%20PM.png)
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-01%20at%2012.17.43%20PM.png)
+
+
+## To monitor the performance of the machine 
+1. use `top`
+
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-02%20at%208.57.04%20PM.png)
+
+
+## Problems faced and debugging
+
+
+  
+
+
+
+
 
 
 
