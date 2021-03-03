@@ -19,4 +19,4 @@ we will use terraform to provision a kind cluster. Once the cluster is provision
 
 1. Create a folder where you will place all the files related to this deployment.
 2. Create [main.tf](https://github.com/kajasaran/case2/blob/master/main.tf) file, which contains all the instructions to provision the cluster.
-3. Use 'terraform init' to intialize terraform in that folder.
+3. Use `terraform init` to intialize terraform in that folder.
