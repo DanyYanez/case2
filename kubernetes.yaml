@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flaskapp
-        image: kajasaran/kubesba:latest
+        image: sarankaja/kubesba:latest
         ports:
         - containerPort: 80
 ---
