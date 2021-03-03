@@ -41,37 +41,37 @@ use [this](https://learn.hashicorp.com/tutorials/terraform/kubernetes-provider?i
 3. sign in into Jenkins and create a new pipeline
 4. configure it by giving you git link
 
-Jenkins login page
+**Jenkins login page**
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%201.20.22%20PM.png)
 
-Select pipeline and give it a name
+**Select pipeline and give it a name**
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%201.20.48%20PM.png)
 
-click on configure
+**click on configure**
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%201.27.58%20PM.png)
 
-scroll down and choose **GIT** in SCM and give your repository name in Repository URL
+**scroll down and choose *GIT* in SCM and give your repository name in Repository URL**
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%201.23.24%20PM.png)
 
-In Script Path type `Jenkinsfile`
+**In Script Path type `Jenkinsfile`**
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%201.23.34%20PM.png)
 
-clck on apply and save
-Then click on `Build Now`
+**clck on apply and save**
+**Then click on `Build Now`**
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%201.27.58%20PM.png)
 
 
-You should now see a successfully built pipeline
+**You should now see a successfully built pipeline**
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-02%20at%202.29.13%20PM.png)
 
 
-check if the services and pods are running successfully by using the commands
+**check if the services and pods are running successfully by using the commands**
 `kubectl get pods`
 `kubectl get services`
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-01%20at%2011.43.26%20AM.png)
 
-Check if the application is deployed by navigating to [localhost:30201](http://localhost:30201)
-You should see the below app running
+**Check if the application is deployed by navigating to [localhost:30201](http://localhost:30201)
+You should see the below app running**
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.06.28%20AM.png)
 
 # The app is successfully deployed and running!!
