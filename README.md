@@ -48,6 +48,7 @@ use [this](https://learn.hashicorp.com/tutorials/terraform/kubernetes-provider?i
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%201.20.48%20PM.png)
 
 **click on configure**
+
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%201.27.58%20PM.png)
 
 **scroll down and choose *GIT* in SCM and give your repository name in Repository URL**
@@ -58,6 +59,7 @@ use [this](https://learn.hashicorp.com/tutorials/terraform/kubernetes-provider?i
 
 **clck on apply and save**
 **Then click on `Build Now`**
+
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%201.27.58%20PM.png)
 
 
