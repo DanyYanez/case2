@@ -8,4 +8,14 @@
 
 
 # Project workflow
-![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.30.53%20AM.png)
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.41.14%20AM.png)
+
+The above image depicts the flow of our pipeline
+we will use terraform to provision a kind cluster. Once the cluster is provisioned we link our jenkins to git to pull the code from there and deploy the app using ansible. Ansible will deploy the app based on the instructions in playbook on a kubernetes cluster. We then deploy ELK Stack on a seperate container and configure it to monitor system logs and docker logs.
+
+# Let's See all the steps in detail
+
+# Step-1 Provisioning a Kubernetes Cluster
+
+1. Create a folder where you will place all the files related to this deployment.
+2. Create [main.tf](https://github.com/kajasaran/case2/blob/master/main.tf) file, which contains all the instructions to deploy the cluster
