@@ -7,6 +7,20 @@
  4. Monitor the deployment using **ELK Stack** deployed on **Docker**
 
 
+# Prerequisites
+Make sure you have all these installed
+1.Java 
+2.Python
+3.Git
+4.Jenkins
+5.Docker
+6.Kubernetes
+7.Terraform
+8.Ansible
+9.Elk Stack
+
+
+
 # Project workflow
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.41.14%20AM.png)
 
@@ -23,6 +37,9 @@ we will use terraform to provision a kind cluster. Once the cluster is provision
 4. Initialize and push the changes to git.
 5. Use `terraform apply` to commit the changes and provision the cluster.
 6. you can check if the cluster is provisioned by running `kubectl get all`
+
+**output of successful provison**
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%203.16.21%20PM.png)
 
 use [this](https://learn.hashicorp.com/tutorials/terraform/kubernetes-provider?in=terraform/kubernetes![image](https://user-images.githubusercontent.com/48532068/109850015-0a632700-7c20-11eb-921a-2c4cb16fc2d7.png)
 ) documnetation if you dont have kubernetes already installed.
@@ -123,7 +140,15 @@ You should see the below app running**
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-02%20at%208.57.04%20PM.png)
 
 
-## Problems faced and debugging
+## To add Stress
+1. Install Stress
+
+
+
+## Problems faced 
+
+1. Wasnt able to log Kubernetes Metrics
+![Image](Screen Shot 2021-03-03 at 7.07.27 PM.png)
 
 
   
