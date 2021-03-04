@@ -146,7 +146,7 @@ You should see the below app running**
 
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2010.48.35%20PM.png)
 
-##Before Stress
+## Before Stress
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2010.51.30%20PM.png)
 
 ## After Stress
@@ -162,8 +162,8 @@ You should see the below app running**
 2. If you have error running any commands, related to any softwares in Jenkins. 
 A. Specify the path to the bin. You can find it by running `which` command eg `which docker` etc.
 
-3.If you have problem loading any data in ELK Stack.
-A. restart the ELK stack and Metricbeat
+3. If you have problem loading any data in ELK Stack.
+A. Restart the ELK stack and Metricbeat
 
 
   
