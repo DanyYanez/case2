@@ -144,12 +144,26 @@ You should see the below app running**
 1. Install Stress `brew install stress`
 2. Choose the option you would like to use to stress your computer from the below options. I chose `stres --cpu 8 --timeout 10s`
 
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2010.48.35%20PM.png)
+
+##Before Stress
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2010.51.30%20PM.png)
+
+## After Stress
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2010.50.58%20PM.png)
+
 
 
 ## Problems faced 
 
 1. Wasnt able to log Kubernetes Metrics
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%207.07.27%20PM.png)
+
+2. If you have error running any commands, related to any softwares in Jenkins. 
+A. Specify the path to the bin. You can find it by running `which` command eg `which docker` etc.
+
+3.If you have problem loading any data in ELK Stack.
+A. restart the ELK stack and Metricbeat
 
 
   
