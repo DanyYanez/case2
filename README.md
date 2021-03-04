@@ -105,6 +105,8 @@ You should see the below app running**
 
 # Step-4 Monitoring
 
+We are using monitoring because to prevent our systems from crashing, and to scale based on the load. This helps reduce down time and improves the effeciency of our application. We can also analyze the stats and predict when to scale up or down.
+
 1. We are deploying ELK Stack to monitor our services.
 2. Make sure you have installed [ELK Stack](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html)
 3. Navigate to the folder where Elk Stack is cloned
@@ -152,6 +154,17 @@ You should see the below app running**
 ## After Stress
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2010.50.58%20PM.png)
 
+## Prometheus 
+
+As we were not able to monitor pods logs in ELK Stack successfully, we are using this tool to monitor them. 
+The image below shows all the desired metrics
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.43.29%20PM.png)
+
+After me constntly refreshing the webpage, we can observe some pikes is all the metrics
+
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.47.14%20PM.png)
+
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.54.18%20PM.png)
 
 
 ## Problems faced 
