@@ -148,7 +148,7 @@ You should see the below app running**
 ## Problems faced 
 
 1. Wasnt able to log Kubernetes Metrics
-![Image](Screen Shot 2021-03-03 at 7.07.27 PM.png)
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%207.07.27%20PM.png)
 
 
   
