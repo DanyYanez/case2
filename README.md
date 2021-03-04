@@ -174,6 +174,13 @@ observe the sudden green pike
 
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-04%20at%2012.04.08%20AM.png)
 
+**Automated shell script to give alert when the cpu usage is more than 60%**
+Save the below script in a file and run it. 
+`set theDelay to 4 -- time to grab 2nd log
+set CPUusage to do shell script "top -F -l " & theDelay & " -n 1 -stats cpu | grep 'CPU usage:' | tail -1 | cut -d. -f1"
+set idlePercent to word -2 of CPUusage as number
+if idlePercent < 60 then display notification ("CPU usage is at " & (100 - idlePercent) & "%.") with title "CPU Usage"`
+
 ## Problems faced 
 
 1. Wasnt able to log Kubernetes Metrics
