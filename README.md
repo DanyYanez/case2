@@ -164,8 +164,14 @@ After me constntly refreshing the webpage, we can observe some pikes is all the 
 
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.47.14%20PM.png)
 
+
+**Network usage**
+
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.54.18%20PM.png)
 
+**CPU usage**
+
+![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-04%20at%2012.04.08%20AM.png)
 
 ## Problems faced 
 
@@ -178,6 +184,8 @@ A. Specify the path to the bin. You can find it by running `which` command eg `w
 3. If you have problem loading any data in ELK Stack.
 A. Restart the ELK stack and Metricbeat
 
+
+## Thank you!
 
   
 
