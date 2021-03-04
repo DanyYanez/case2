@@ -141,7 +141,8 @@ You should see the below app running**
 
 
 ## To add Stress
-1. Install Stress
+1. Install Stress `brew install stress`
+2. Choose the option you would like to use to stress your computer from the below options. I chose `stres --cpu 8 --timeout 10s`
 
 
 
