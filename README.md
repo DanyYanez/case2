@@ -160,12 +160,13 @@ As we were not able to monitor pods logs in ELK Stack successfully, we are using
 The image below shows all the desired metrics
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.43.29%20PM.png)
 
-After me constntly refreshing the webpage, we can observe some pikes is all the metrics
+After me refreshing the webpage several times, we can observe some pikes is all the metrics
 
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.47.14%20PM.png)
 
 
 **Network usage**
+observe the sudden green pike
 
 ![Image](https://github.com/kajasaran/case2/blob/master/Screen_shots/Screen%20Shot%202021-03-03%20at%2011.54.18%20PM.png)
 
