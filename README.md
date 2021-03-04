@@ -170,13 +170,14 @@ if idlePercent < 60 then display notification ("CPU usage is at " & (100 - idleP
 As we were not able to monitor pods logs in ELK Stack successfully, we are using this tool to monitor them. 
 
 code to install and expose Prometheus-grafana
-'''
-brew install helm
+
+
+```brew install helm
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo update
 helm install prometheus prometheus-community/kube-prometheus-stack
 kubectl port-forward deployment/prometheus-grafana 3000
-'''
+```
 
 
 The image below shows all the desired metrics
